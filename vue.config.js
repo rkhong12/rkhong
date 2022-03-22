@@ -3,6 +3,8 @@
 //   transpileDependencies: true
 // })
 module.exports = {    
-  publicPath: '/portfolio',
-  outputDir: 'docs'
+  publicPath: process.env.NODE_ENV === 'production'
+   ? '/portfolio/'
+   : '/',
+  outputDir: 'docs',
  }
