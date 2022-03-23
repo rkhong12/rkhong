@@ -7,4 +7,13 @@ module.exports = {
    ? '/rkhong/'
    : '/',
   outputDir: 'docs',
+  css : {
+    loaderOptions : {
+      scss: { 
+        additionalData: ` 
+          @import "@/assets/scss/variables.scss"; 
+        `, 
+      },
+    }
+  }
  }

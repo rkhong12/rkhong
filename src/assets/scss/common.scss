@@ -1,0 +1,36 @@
+/**
+태그 초기화
+**/
+html, body {width:100%;height:100%;}
+body * {box-sizing: border-box;}
+body {margin:0;font-family: 'Noto Sans KR', sans-serif;font-weight:400;color:#282828;}
+div, iframe, h1, h2, h3, h4, h5, h6, p, button, abbr, address, blockquote, q, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td, hr {margin:0; padding:0;}
+div {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;word-wrap:break-word;word-break:keep-all;}
+header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption {display:block;margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight:600;line-height:1;color:#222;}
+ol, ul, li {list-style:none;}
+table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;}
+form, fieldset, iframe {border:0;}
+img {border:0;vertical-align:top;font-size:0;line-height:0;}
+button {border:0;}
+hr {height:0;}
+i, em, address {font-style:normal;}
+u {text-decoration:none;}
+strong, b {font-family: 'Noto Sans KR', sans-serif;font-weight:600;color:#222;}
+label, button {cursor:pointer;}
+blockquote, q {quotes:none;}
+caption {overflow:hidden;width:0;height:0;font-size:0;line-height:0;text-indent:-50000px;}
+legend {overflow:hidden;width:0;height:0;font-size:0;line-height:0;text-indent:-50000px;}
+input, textarea, select, button {font-family: 'Noto Sans KR', sans-serif;font-weight:400;font-size:13px;vertical-align:middle;background:none;outline:none;-webkit-appearance: none;
+-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+a {color:#222;text-decoration:none;/*outline:none;*/}
+a:hover {text-decoration:none;}
+.dis_b {display: block;}
+@media all and (max-width: 1279px) {
+	body {font-size:13px;line-height:22px;}
+	img {max-width:100%;}
+	span.line {display:inline-block;}
+}
+@media all and (min-width: 1280px) {
+	body {font-size:16px;line-height:30px;}
+}
