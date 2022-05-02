@@ -235,7 +235,7 @@ section {max-width: 1600px; margin: 0 auto;}
 .card .details {padding: 5%; text-align: center;}
 .card .details h3 {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; width: 100%; font-size: 18px; line-height: 22px;}
 .card .details .use_skill {padding: 3px 0; font-size: 13px; min-height: 46px;} 
-.card .details .keyword li {display: inline-block; margin-top: 3px; padding: 3px 10px; border: 1px solid #043F82; border-radius: 12px;font-size: 14px; line-height: 17px;}
+.card .details .keyword li {display: inline-block; margin-top: 3px; padding: 3px 10px; border: 1px solid #222; border-radius: 12px;font-size: 14px; line-height: 17px;}
 .card .details .keyword li:not(:last-child) {margin-right: 2%;}
 
 
