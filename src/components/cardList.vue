@@ -1,5 +1,4 @@
 <template>
-    <div>
         <section class="sec_inner">
             <div class="portfolio_wrap">
               <h2>PORTFOLIOS</h2>
@@ -213,7 +212,6 @@
               </div>
             </div>
         </section>
-    </div>
 </template>
 
 <script>

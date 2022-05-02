@@ -1,5 +1,4 @@
 <template>
-    <div>
         <section class="skills" id="skiils">
           <div class="sec_inner">
             <h2>SKILLS</h2>
@@ -48,7 +47,6 @@
           </div>
           
         </section>
-    </div>
 </template>
 
 <script>

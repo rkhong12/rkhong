@@ -2,7 +2,7 @@
   <div>
       <AboutMe />
       <SkillBar />
-      <CardList/>
+      <CardList />
   </div>
 </template>
 

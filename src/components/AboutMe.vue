@@ -1,5 +1,4 @@
 <template>
-    <div>
         <section class="about">          
           <div class="sec_inner">   
             <h2>퍼블리셔 홍려경 입니다.</h2>         
@@ -59,7 +58,6 @@
           </div>
           
         </section>
-    </div>
 </template>
 
 <script>
