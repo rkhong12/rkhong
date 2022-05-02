@@ -1,4 +1,4 @@
-# portfolio
+# Hongryeokyeong's Portfolio
 
 ## Project setup
 ```

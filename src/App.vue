@@ -1,14 +1,20 @@
 <template>
-  <cardList/>
+  <div>
+      <AboutMe />
+      <SkillBar />
+      <CardList/>
+  </div>
 </template>
 
 <script>
-import cardList from './components/cardList.vue'
+import AboutMe from '@/components/AboutMe.vue';
+import SkillBar from '@/components/SkillBar.vue';
+import CardList from '@/components/CardList.vue';
 
 export default {
   name: 'App',
   components: {
-    cardList
+    AboutMe, SkillBar, CardList
   }
 }
 </script>
