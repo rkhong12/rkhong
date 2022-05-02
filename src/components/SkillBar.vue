@@ -31,7 +31,7 @@
               <p>Javascript & Vue</p>
               <div class="progress">
                 <div class="progress_bar">
-                  <div class="progress_value progress_value4">70%</div>
+                  <div class="progress_value progress_value4">75%</div>
                 </div>
               </div>
             </li>
@@ -114,7 +114,7 @@
   }
   @keyframes load4 {
 	0% { width: 0; }
-	100% { width: 70%; }
+	100% { width: 75%; }
   }
   @keyframes load5 {
 	0% { width: 0; }
