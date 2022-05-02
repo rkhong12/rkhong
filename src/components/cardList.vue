@@ -239,6 +239,8 @@ section {max-width: 1600px; margin: 0 auto;}
 
 .port_wrap{overflow:hidden;position:relative;border-radius:14px;background-color:#fff;box-shadow:4px 12px 12px 6px rgba(0,0,0,.09)}
 .port_wrap:hover{-webkit-transition:all .3s ease;transition:all .3s ease;-webkit-transform:translateY(-5px);transform:translateY(-5px);-ms-transform:translateY(-5px);box-shadow:4px 12px 16px 6px rgba(0,0,0,.18)}
+.port_wrap:hover img {transform: scale(1.1); -webkit-transform:scale(1.1); -moz-transform:scale(1.1); -o-transform:scale(1.1); transition: transform .3s; -webkit-transition: transform .3s; -moz-transition: transform .3s; -o-transition: transform .3s;}
+.port_wrap img {transition: transform .3s; -webkit-transition: transform .3s; -moz-transition: transform .3s; -o-transition: transform .3s;}
 
 
 @media (max-width: 640px) {
