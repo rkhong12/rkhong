@@ -1,7 +1,9 @@
 <template>
         <section class="about">          
           <div class="sec_inner">   
-            <h2>퍼블리셔 홍려경 입니다.</h2>         
+            <div class="tit">
+              <h2 class="typo_txt"></h2>     
+            </div>                
             <div class="profile_wrap">
               <div class="profile_img">
                 <img src="@/assets/images/photo3.png" alt="user's image">              
@@ -63,12 +65,47 @@
 <script>
     export default {
         name: 'AboutMe',
+        data: function () {
+          return {
+            typoTxt: '안녕하세요. 퍼블리셔 홍려경 입니다.',
+            index: 0,
+          }
+        },
+        mounted: function () {
+          this.typo();
+        },
+        methods: {
+          typo: function() {
+            setInterval(this.typing, 200)
+          },
+          sleep: function(delay) {
+            let start = new Date().getTime(); 
+              while (new Date().getTime() < start + delay); 
+          },
+          typing: function() {            
+            let text = document.querySelector('.typo_txt');
+            text.textContent += this.typoTxt[this.index++];
+              if(this.index > this.typoTxt.length){
+                  console.log("끝끝끝");
+                  text.textContent = ""
+                  this.index = 0;
+                  this.sleep(3000);
+              }
+          }
+        }
     }
 </script>
 
 <style lang="scss" scoped>  
   .sec_inner {text-align: center;}
   .profile_wrap {display: inline-flex; align-items: center;}
+  .tit {text-align: center;}
+  .typo_txt {display: inline; border-right: 0.2em solid #222; animation: cursor 0.3s ease infinite;}
+    @keyframes cursor{ 
+      0%{border-right: 1px solid #fff} 
+      50%{border-right: 1px solid #000} 
+      100%{border-right: 1px solid #fff} 
+    }
   .info_items {padding: 3%; background: #fff; border-radius: 10px; box-shadow: RGB(13, 13, 13, 0.15) 0px 1px 5px;}
   .info_items:not(:first-child) {margin-left: 5%;}
   .profile_txt {text-align: left;}

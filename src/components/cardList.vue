@@ -69,7 +69,6 @@
                           <li class="pill">chart js</li>
                         </ul>
                       </div>     
-                                         
                     </a>
                   </div>
                 </div>
