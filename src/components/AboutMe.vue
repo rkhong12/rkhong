@@ -52,7 +52,7 @@
                   <dd>
                     <em>UX/UI기반 웹퍼블리셔 </em>한국디지털기업협회                 
                   </dd>
-                  <dt>2012. 03 ~ 2016. 02 </dt>
+                  <dt>2012. 03 ~ 2016. 02</dt>
                   <dd>
                     <em>안동대학교 </em>멀티미디어공학                 
                   </dd>
@@ -101,7 +101,8 @@
 
 <style lang="scss" scoped>  
   .sec_inner {text-align: center;}
-  .profile_wrap {display: inline-flex; align-items: center;}
+  .profile_wrap {display: inline-flex; align-items: center; justify-content: center;}
+  .profile_img {width: 25%;}
   .tit {text-align: center;}
   .typo_txt {display: inline; border-right: 0.2em solid #222; animation: cursor 0.3s ease infinite;}
   @keyframes cursor { 
@@ -116,6 +117,7 @@
   .info_wrap  {margin-top: 5%; padding: 0 10%; display: flex; flex-wrap: wrap; justify-content: space-between; }
   .info_wrap dl {margin-top: 10px;}
   .info_wrap dt {color: #a1a1a1; font-size: 14px;}
+  .info_wrap dt span {color: #282828; font-weight: 500;}
   .info_wrap dt:not(:first-child) {margin-top: 8px;}
   .info_wrap dd {color: #333; font-size:14px;}
   .info_wrap dd em {font-weight: bold; font-size: 16px;}
