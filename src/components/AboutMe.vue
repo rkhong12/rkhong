@@ -15,7 +15,7 @@
                 </p>             
                 <p>
                   <i class="fas fa-laugh-beam"></i>
-                  컴포넌트 단위의 유의미한 구조적인 퍼블리싱을 지향합니다.
+                  컴포넌트 단위의 유의미한 구조적인 코딩을 지향합니다.
                 </p>
                 <p>
                   <i class="fas fa-shopping-cart"></i>
@@ -71,7 +71,7 @@
         name: 'AboutMe',
         data: function () {
           return {
-            typoTxt: '안녕하세요. 퍼블리셔 홍려경 입니다.',
+            typoTxt: '안녕하세요.  홍려경입니다.',
             index: 0,
           }
         },
