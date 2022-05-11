@@ -30,7 +30,7 @@
             
             <div class="info_wrap">
               <div class="info_items">
-                <p>경력</p>
+                <p>CAREER</p>
                 <dl>
                   <dt>2021. 09 ~ </dt>
                   <dd><em>블랙홀릭</em> R&D</dd>
@@ -41,7 +41,7 @@
                 </dl>
               </div>
               <div class="info_items">
-                <p>교육</p>
+                <p>EDUCATION</p>
                 <dl>
                   <dt>2019. 06 ~ 2019. 07 </dt>
                   <dd>
@@ -51,6 +51,10 @@
                   <dt>2015. 07 ~ 2015. 12 </dt>
                   <dd>
                     <em>UX/UI기반 웹퍼블리셔 </em>한국디지털기업협회                 
+                  </dd>
+                  <dt>2012. 03 ~ 2016. 02 </dt>
+                  <dd>
+                    <em>안동대학교 </em>멀티미디어공학                 
                   </dd>
                 </dl>
               </div>
