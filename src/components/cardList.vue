@@ -271,6 +271,6 @@ section {max-width: 1600px; margin: 0 auto;}
 	.card_items {flex: 0 0 33.33%;}
 
 	.card .details {line-height: 130%;} 
-	.card .details .use_skill {font-size: 14px;}
+	.card .details .use_skill {font-size: 16px;}
 }
 </style>

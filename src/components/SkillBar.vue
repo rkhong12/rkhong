@@ -53,17 +53,15 @@
     export default {
         name: 'SkillBar',
         mounted: function () {
-           window.addEventListener('scroll', () => {
-          const tile = document.getElementById('skiils');
-          const tileTop = tile.offsetTop;
-          const scrollT = window.scrollY;
-          const inveiw = "in";
+          window.addEventListener('scroll', () => {
+            const tile = document.getElementById('skiils');
+            const tileTop = tile.offsetTop;
+            const scrollT = window.scrollY;
+            const inveiw = "in";
 
-          if( scrollT >= tileTop - 280 ){
-          tile.classList.add(inveiw);
-          }
-
-        })
+            if (scrollT >= tileTop - 280 ) tile.classList.add(inveiw);
+            
+          })
         }
     }
 </script>
@@ -89,6 +87,7 @@
 	border-radius: 20px;
 	background: #222;
 	height: 30px;
+  line-height: 30px;
 	width: 0;
 	text-align: right;
 	padding-right: 14px; 
@@ -120,4 +119,10 @@
 	0% { width: 0; }
 	100% { width: 85%; }
   }
+  @media (max-width: 640px) {
+	.skills ul li {flex-wrap: wrap;;}
+	.skills ul li p {text-align: left; flex: 0 0 100%;}
+	.skills ul li .progress {margin-top: 1%; flex: 0 0 100%;}
+}
+
 </style>
