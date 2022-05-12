@@ -118,6 +118,7 @@
   .info_items p {font-size: 20px; font-weight: 600;}
   .profile_txt {text-align: left;}
   .profile_txt p {margin-top: 15px;}
+  .fas {margin-right: 5px;}
   .info_wrap  {margin-top: 5%; padding: 0 10%; display: flex; flex-wrap: wrap; justify-content: space-between; }
   .info_wrap dl {margin-top: 10px;}
   .info_wrap dt {color: #a1a1a1; font-size: 14px;}
@@ -127,10 +128,10 @@
   .info_wrap dd em {font-weight: bold; font-size: 16px;}
   .btn_wrap {margin-top: 20px; display: flex; align-items: flex-end; justify-content: center; flex-direction: column;}
   .btn_txt {
-	display:inline-block;position:relative;margin-right:5px;text-align:center;vertical-align:middle;font-size:13px;line-height:18px;letter-spacing:0.5px; color: #a1a1a1; font-weight: bold;
-	-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;
-	-webkit-transition-duration:.4s;transition-duration:.4s;
-}
+    display:inline-block;position:relative;margin-right:5px;text-align:center;vertical-align:middle;font-size:13px;line-height:18px;letter-spacing:0.5px; color: #a1a1a1; font-weight: bold;
+    -webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;
+    -webkit-transition-duration:.4s;transition-duration:.4s;
+  }
 .btn_txt:after {background:#a1a1a1;}
 .btn_txt + .btn_txt {margin-top: 5px;}
    @media (max-width: 640px) {
