@@ -120,9 +120,9 @@
 	100% { width: 90%; }
   }
   @media (max-width: 640px) {
-	.skills ul li {flex-wrap: wrap;;}
-	.skills ul li p {text-align: left; flex: 0 0 100%;}
-	.skills ul li .progress {margin-top: 1%; flex: 0 0 100%;}
-}
+    .skills ul li {flex-wrap: wrap;}
+    .skills ul li p {text-align: left; flex: 0 0 100%;}
+    .skills ul li .progress {margin-top: 1%; flex: 0 0 100%;}
+  }
 
 </style>
